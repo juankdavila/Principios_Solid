@@ -1,0 +1,23 @@
+class Reporte {
+  generar() {
+    console.log("Reporte genérico");
+  }
+}
+
+class ReportePerro extends Reporte {
+  generar() {
+    console.log("Reporte de perro");
+  }
+}
+
+class ReporteGato extends Reporte {
+  generar() {
+    console.log("Reporte de gato");
+  }
+}
+
+const perro = new ReportePerro();
+const gato = new ReporteGato();
+
+perro.generar();
+gato.generar();

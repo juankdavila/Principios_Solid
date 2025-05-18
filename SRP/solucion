@@ -1,0 +1,17 @@
+class ReportePerro {
+  generar() {
+    console.log("Generando reporte del perro");
+  }
+}
+
+class Guardador {
+  guardar() {
+    console.log("Guardando reporte en archivo");
+  }
+}
+
+const reporte = new ReportePerro();
+const guardador = new Guardador();
+
+reporte.generar();
+guardador.guardar();
